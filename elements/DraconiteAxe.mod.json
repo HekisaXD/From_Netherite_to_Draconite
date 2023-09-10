@@ -1,0 +1,27 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "texture": "drac_axe",
+    "customModelName": "Normal",
+    "name": "Draconite Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:DracCreatTab"
+    },
+    "harvestLevel": 5,
+    "efficiency": 10.0,
+    "attackSpeed": 1.2,
+    "enchantability": 20,
+    "damageVsEntity": 12.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

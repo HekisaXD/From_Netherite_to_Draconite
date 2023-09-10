@@ -1,0 +1,347 @@
+{
+  "mod_elements": [
+    {
+      "name": "Draconite",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "draconite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedraconiteore/item/DraconiteItem.java",
+          "src/main/resources/assets/the_draconite_ore/models/item/draconite.json"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "DraconiteNugget",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "draconite_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_draconite_ore/models/item/draconite_nugget.json",
+          "src/main/java/net/mcreator/thedraconiteore/item/DraconiteNuggetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ReciepeDraconite",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reciepe_draconite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_draconite_ore/recipes/reciepe_draconite.json"
+        ]
+      }
+    },
+    {
+      "name": "ReciepeNugget",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reciepe_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_draconite_ore/recipes/reciepe_nugget.json"
+        ]
+      }
+    },
+    {
+      "name": "DraconiteSword",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "draconite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_draconite_ore/models/item/draconite_sword.json",
+          "src/main/java/net/mcreator/thedraconiteore/item/DraconiteSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DraconiteAxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "draconite_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_draconite_ore/models/item/draconite_axe.json",
+          "src/main/java/net/mcreator/thedraconiteore/item/DraconiteAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DraconiteHoe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "draconite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_draconite_ore/models/item/draconite_hoe.json",
+          "src/main/java/net/mcreator/thedraconiteore/item/DraconiteHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DraconiteShovel",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "draconite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_draconite_ore/models/item/draconite_shovel.json",
+          "src/main/java/net/mcreator/thedraconiteore/item/DraconiteShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DraconitePickaxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "draconite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedraconiteore/item/DraconitePickaxeItem.java",
+          "src/main/resources/assets/the_draconite_ore/models/item/draconite_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "ReciepieDraconiteSwordN",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reciepie_draconite_sword_n",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_draconite_ore/recipes/reciepie_draconite_sword_n.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipieDraconitePickaxeN",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipie_draconite_pickaxe_n",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_draconite_ore/recipes/recipie_draconite_pickaxe_n.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipieDraconiteAxeN",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipie_draconite_axe_n",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_draconite_ore/recipes/recipie_draconite_axe_n.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipieDraconiteHoeN",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipie_draconite_hoe_n",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_draconite_ore/recipes/recipie_draconite_hoe_n.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipieDraconiteShovelN",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipie_draconite_shovel_n",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_draconite_ore/recipes/recipie_draconite_shovel_n.json"
+        ]
+      }
+    },
+    {
+      "name": "DraconiteOre",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "draconite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_draconite_ore/blockstates/draconite_ore.json",
+          "src/main/java/net/mcreator/thedraconiteore/world/features/ores/DraconiteOreFeature.java",
+          "src/main/resources/assets/the_draconite_ore/models/block/draconite_ore.json",
+          "src/main/java/net/mcreator/thedraconiteore/block/DraconiteOreBlock.java",
+          "src/main/resources/data/the_draconite_ore/forge/biome_modifier/draconite_ore_biome_modifier.json",
+          "src/main/resources/assets/the_draconite_ore/models/item/draconite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "RawDraconite",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_draconite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_draconite_ore/models/item/raw_draconite.json",
+          "src/main/java/net/mcreator/thedraconiteore/item/RawDraconiteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ReciepeDraconite2",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reciepe_draconite_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_draconite_ore/recipes/reciepe_draconite_2.json"
+        ]
+      }
+    },
+    {
+      "name": "DraconiteBlock",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "draconite_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedraconiteore/block/DraconiteBlockBlock.java",
+          "src/main/resources/assets/the_draconite_ore/models/block/draconite_block.json",
+          "src/main/resources/assets/the_draconite_ore/models/item/draconite_block.json",
+          "src/main/resources/assets/the_draconite_ore/blockstates/draconite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "DracCreatTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drac_creat_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DracArmor",
+      "type": "armor",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drac_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_draconite_ore/models/item/drac_armor_leggings.json",
+          "src/main/resources/assets/the_draconite_ore/models/item/drac_armor_chestplate.json",
+          "src/main/java/net/mcreator/thedraconiteore/item/DracArmorItem.java",
+          "src/main/resources/assets/the_draconite_ore/models/item/drac_armor_boots.json",
+          "src/main/resources/assets/the_draconite_ore/models/item/drac_armor_helmet.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.the_draconite_ore.draconite_pickaxe": "Draconite Pickaxe",
+      "item.the_draconite_ore.draconite": "Draconite Ingot",
+      "item.the_draconite_ore.draconite_axe": "Draconite Axe",
+      "item.the_draconite_ore.drac_armor_boots": "Draconite Boots",
+      "block.the_draconite_ore.draconite_block": "Draconite Block",
+      "item.the_draconite_ore.draconite_nugget": "Draconite Nugget",
+      "item.the_draconite_ore.raw_draconite": "Raw Draconite",
+      "itemGroup.tabdrac_creat_tab": "Darconite Ore",
+      "item.the_draconite_ore.drac_armor_helmet": "Draconite Helmet",
+      "item.the_draconite_ore.drac_armor_chestplate": "Draconite Chestplate",
+      "item.the_draconite_ore.draconite_hoe": "Draconite Hoe",
+      "item.the_draconite_ore.draconite_shovel": "Draconite Shovel",
+      "item.the_draconite_ore.draconite_sword": "Draconite Sword",
+      "block.the_draconite_ore.draconite_ore": "Draconite Ore",
+      "item.the_draconite_ore.drac_armor_leggings": "Draconite Leggings"
+    },
+    "fr_fr": {
+      "item.the_draconite_ore.draconite_pickaxe": "Pioche en Draconite ",
+      "item.the_draconite_ore.draconite": "Lingot de Draconite",
+      "item.the_draconite_ore.draconite_axe": "Hache en Draconite",
+      "item.the_draconite_ore.drac_armor_boots": "Draconite Boots",
+      "block.the_draconite_ore.draconite_block": "Bloc de Draconite",
+      "item.the_draconite_ore.draconite_nugget": "Pépite de Draconite",
+      "item.the_draconite_ore.raw_draconite": "Draconite Brut",
+      "itemGroup.tabdrac_creat_tab": "Darconite Ore",
+      "item.the_draconite_ore.drac_armor_helmet": "Draconite Helmet",
+      "item.the_draconite_ore.drac_armor_chestplate": "Draconite Chestplate",
+      "item.the_draconite_ore.draconite_hoe": "Houe en Draconite",
+      "item.the_draconite_ore.draconite_shovel": "Pelle en Draconite",
+      "item.the_draconite_ore.draconite_sword": "Épée en Draconite",
+      "block.the_draconite_ore.draconite_ore": "Minerai de Draconite",
+      "item.the_draconite_ore.drac_armor_leggings": "Draconite Leggings"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Weapons",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "the_draconite_ore",
+    "modName": "The Draconite Ore",
+    "version": "1.0.0",
+    "author": "Hekisa, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.thedraconiteore",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

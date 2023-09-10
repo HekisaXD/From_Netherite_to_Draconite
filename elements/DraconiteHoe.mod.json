@@ -1,0 +1,27 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "texture": "drac_hoe",
+    "customModelName": "Normal",
+    "name": "Draconite Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:DracCreatTab"
+    },
+    "harvestLevel": 5,
+    "efficiency": 10.0,
+    "attackSpeed": 3.0,
+    "enchantability": 20,
+    "damageVsEntity": 2.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
