@@ -37,9 +37,9 @@ public class DraconiteOreFeature extends OreFeature {
 				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), TheDraconiteOreModBlocks.DRACONITE_ORE.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(Blocks.GRANITE.defaultBlockState()), TheDraconiteOreModBlocks.DRACONITE_ORE.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(Blocks.DIORITE.defaultBlockState()), TheDraconiteOreModBlocks.DRACONITE_ORE.get().defaultBlockState()),
-						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), TheDraconiteOreModBlocks.DRACONITE_ORE.get().defaultBlockState())), 13));
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), TheDraconiteOreModBlocks.DRACONITE_ORE.get().defaultBlockState())), 7));
 		PLACED_FEATURE = PlacementUtils.register("the_draconite_ore:draconite_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(10), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(1), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(0)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

@@ -104,7 +104,10 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:beach": "2023-09-10 18:58:15 +0200",
+      "minecraft:river": "2023-09-11 01:16:09 +0200",
+      "minecraft:lukewarm_ocean": "2023-09-11 02:31:44 +0200",
       "minecraft:forest": "2023-09-10 18:59:19 +0200",
+      "minecraft:jungle": "2023-09-11 01:19:01 +0200",
       "minecraft:savanna": "2023-09-10 21:40:39 +0200",
       "minecraft:plains": "2023-09-10 17:36:21 +0200"
     },
@@ -334,6 +337,12 @@
       "minecraft:zombie": "2023-09-10 21:43:37 +0200"
     },
     "done": false
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2023-09-11 01:04:38 +0200"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
