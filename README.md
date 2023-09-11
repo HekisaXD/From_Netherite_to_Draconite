@@ -4,4 +4,8 @@
 
 Active working version : 1.19.2
 
+Needed : 
+- Mcreator 2023.3
+- Forge Generator for 1.19.2 : https://mcreator.net/plugin/99914/minecraft-forge-1192-java-editiondatapack-generator
+
 If you have you want to contribuate feel free to do it.
