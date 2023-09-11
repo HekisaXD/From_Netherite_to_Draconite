@@ -381,10 +381,10 @@
   "workspaceSettings": {
     "modid": "from_netherite_to_draconite",
     "modName": "From Netherite To Draconite",
-    "version": "1.0.0",
+    "version": "1.0.0a",
     "description": "A mod that introduce the whole new draconite resource, containig  new armor, tools and blocks",
     "author": "Hekisa",
-    "websiteURL": "A Minecraft mod that introduces new features to go beyond netherite and elevating the overall experience, including powerful armor, new ore, new sword, shovel, hoe etc... all centered around the Draconite resource.",
+    "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
