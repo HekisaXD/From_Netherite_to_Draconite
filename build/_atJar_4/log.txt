@@ -1,7 +1,7 @@
-Java Launcher: C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
-Arguments: '--inJar, C:\Users\Hekisa\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.2.23\forge-1.19.2-43.2.23-injected.jar, --outJar, C:\Users\Hekisa\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.2.23_mapped_official_1.19.2\forge-1.19.2-43.2.23_mapped_official_1.19.2.jar, --logFile, accesstransform.log, --atFile, C:\Users\Hekisa\MCreatorWorkspaces\the_draconite_ore\build\_atJar_4\parent_at.cfg'
+Java Launcher: /Applications/MCreator.app/Contents/jdk.bundle/Contents/Home/bin/java
+Arguments: '--inJar, /Users/valentinlafon/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.23/forge-1.19.2-43.2.23-injected.jar, --outJar, /Users/valentinlafon/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.23_mapped_official_1.19.2/forge-1.19.2-43.2.23_mapped_official_1.19.2.jar, --logFile, accesstransform.log, --atFile, /Users/valentinlafon/Documents/GitHub/The-Draconite-Experience/build/_atJar_4/parent_at.cfg'
 Classpath:
- - C:\Users\Hekisa\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
-Working directory: C:\Users\Hekisa\MCreatorWorkspaces\the_draconite_ore\build\_atJar_4
+ - /Users/valentinlafon/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.0.7/accesstransformers-8.0.7-fatjar.jar
+Working directory: /Users/valentinlafon/Documents/GitHub/The-Draconite-Experience/build/_atJar_4
 Main class: net.minecraftforge.accesstransformer.TransformerProcessor
 ====================================

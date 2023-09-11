@@ -380,9 +380,11 @@
   },
   "workspaceSettings": {
     "modid": "the_draconite_ore",
-    "modName": "The Draconite Ore",
+    "modName": "The Draconite Experience",
     "version": "1.0.0",
+    "description": "A mod that introduce the whole new draconite resource, containig  new armor, tools and blocks",
     "author": "Hekisa",
+    "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -391,6 +393,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
+    "credits": "Created by Hekisa using MCreator",
     "modElementsPackage": "net.mcreator.thedraconiteore",
     "lockBaseModFiles": false
   },
