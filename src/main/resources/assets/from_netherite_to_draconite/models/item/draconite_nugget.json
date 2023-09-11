@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "from_netherite_to_draconite:items/drac_nugget"
+  }
+}

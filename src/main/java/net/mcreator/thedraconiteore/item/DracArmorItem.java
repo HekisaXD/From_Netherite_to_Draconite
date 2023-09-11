@@ -13,8 +13,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 
-import net.mcreator.thedraconiteore.init.TheDraconiteOreModTabs;
-import net.mcreator.thedraconiteore.init.TheDraconiteOreModItems;
+import net.mcreator.thedraconiteore.init.FromNetheriteToDraconiteModTabs;
+import net.mcreator.thedraconiteore.init.FromNetheriteToDraconiteModItems;
 
 public abstract class DracArmorItem extends ArmorItem {
 	public DracArmorItem(EquipmentSlot slot, Item.Properties properties) {
@@ -41,7 +41,7 @@ public abstract class DracArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(TheDraconiteOreModItems.DRACONITE.get()));
+				return Ingredient.of(new ItemStack(FromNetheriteToDraconiteModItems.DRACONITE.get()));
 			}
 
 			@Override
@@ -63,45 +63,45 @@ public abstract class DracArmorItem extends ArmorItem {
 
 	public static class Helmet extends DracArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(TheDraconiteOreModTabs.TAB_DRAC_CREAT_TAB));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(FromNetheriteToDraconiteModTabs.TAB_DRAC_CREAT_TAB));
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "the_draconite_ore:textures/models/armor/draconite__layer_1.png";
+			return "from_netherite_to_draconite:textures/models/armor/draconite__layer_1.png";
 		}
 	}
 
 	public static class Chestplate extends DracArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(TheDraconiteOreModTabs.TAB_DRAC_CREAT_TAB));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(FromNetheriteToDraconiteModTabs.TAB_DRAC_CREAT_TAB));
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "the_draconite_ore:textures/models/armor/draconite__layer_1.png";
+			return "from_netherite_to_draconite:textures/models/armor/draconite__layer_1.png";
 		}
 	}
 
 	public static class Leggings extends DracArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(TheDraconiteOreModTabs.TAB_DRAC_CREAT_TAB));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(FromNetheriteToDraconiteModTabs.TAB_DRAC_CREAT_TAB));
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "the_draconite_ore:textures/models/armor/draconite__layer_2.png";
+			return "from_netherite_to_draconite:textures/models/armor/draconite__layer_2.png";
 		}
 	}
 
 	public static class Boots extends DracArmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(TheDraconiteOreModTabs.TAB_DRAC_CREAT_TAB));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(FromNetheriteToDraconiteModTabs.TAB_DRAC_CREAT_TAB));
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "the_draconite_ore:textures/models/armor/draconite__layer_1.png";
+			return "from_netherite_to_draconite:textures/models/armor/draconite__layer_1.png";
 		}
 	}
 }

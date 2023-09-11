@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "the_draconite_ore:blocks/dracingot_block",
-    "particle": "the_draconite_ore:blocks/dracingot_block"
-  },
-  "render_type": "solid"
-}

@@ -11,7 +11,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.thedraconiteore.init.TheDraconiteOreModBlocks;
+import net.mcreator.thedraconiteore.init.FromNetheriteToDraconiteModBlocks;
 
 import java.util.List;
 import java.util.Collections;
@@ -31,6 +31,6 @@ public class DraconiteBlockBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(TheDraconiteOreModBlocks.DRACONITE_BLOCK.get()));
+		return Collections.singletonList(new ItemStack(FromNetheriteToDraconiteModBlocks.DRACONITE_BLOCK.get()));
 	}
 }

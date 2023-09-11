@@ -6,7 +6,7 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.AxeItem;
 
-import net.mcreator.thedraconiteore.init.TheDraconiteOreModTabs;
+import net.mcreator.thedraconiteore.init.FromNetheriteToDraconiteModTabs;
 
 public class DraconiteAxeItem extends AxeItem {
 	public DraconiteAxeItem() {
@@ -34,6 +34,6 @@ public class DraconiteAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, -2.8f, new Item.Properties().tab(TheDraconiteOreModTabs.TAB_DRAC_CREAT_TAB).fireResistant());
+		}, 1, -2.8f, new Item.Properties().tab(FromNetheriteToDraconiteModTabs.TAB_DRAC_CREAT_TAB).fireResistant());
 	}
 }

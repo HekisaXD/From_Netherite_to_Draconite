@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "from_netherite_to_draconite:block/draconite_block"
+    }
+  }
+}

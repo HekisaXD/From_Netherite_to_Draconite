@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "from_netherite_to_draconite:draconite_nugget"
+    },
+    "1": {
+      "item": "from_netherite_to_draconite:draconite_nugget"
+    },
+    "2": {
+      "item": "from_netherite_to_draconite:draconite_nugget"
+    },
+    "3": {
+      "item": "from_netherite_to_draconite:draconite_nugget"
+    },
+    "4": {
+      "item": "from_netherite_to_draconite:draconite_nugget"
+    },
+    "5": {
+      "item": "from_netherite_to_draconite:draconite_nugget"
+    },
+    "6": {
+      "item": "from_netherite_to_draconite:draconite_nugget"
+    },
+    "7": {
+      "item": "from_netherite_to_draconite:draconite_nugget"
+    },
+    "8": {
+      "item": "from_netherite_to_draconite:draconite_nugget"
+    }
+  },
+  "result": {
+    "item": "from_netherite_to_draconite:draconite",
+    "count": 1
+  }
+}

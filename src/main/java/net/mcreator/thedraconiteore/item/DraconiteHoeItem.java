@@ -6,7 +6,7 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
 
-import net.mcreator.thedraconiteore.init.TheDraconiteOreModTabs;
+import net.mcreator.thedraconiteore.init.FromNetheriteToDraconiteModTabs;
 
 public class DraconiteHoeItem extends HoeItem {
 	public DraconiteHoeItem() {
@@ -34,6 +34,6 @@ public class DraconiteHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 0, -1f, new Item.Properties().tab(TheDraconiteOreModTabs.TAB_DRAC_CREAT_TAB).fireResistant());
+		}, 0, -1f, new Item.Properties().tab(FromNetheriteToDraconiteModTabs.TAB_DRAC_CREAT_TAB).fireResistant());
 	}
 }

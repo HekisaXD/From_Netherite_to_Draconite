@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "from_netherite_to_draconite:draconite_ore",
+  "step": "underground_ores"
+}

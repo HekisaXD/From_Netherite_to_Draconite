@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "from_netherite_to_draconite:draconite"
+    }
+  ],
+  "result": {
+    "item": "from_netherite_to_draconite:draconite_nugget",
+    "count": 9
+  }
+}

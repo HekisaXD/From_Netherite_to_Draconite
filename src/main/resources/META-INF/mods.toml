@@ -3,14 +3,15 @@ loaderVersion="[43,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="the_draconite_ore"
+modId="from_netherite_to_draconite"
 version="1.0.0"
-displayName="The Draconite Ore"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayName="From Netherite To Draconite"
+credits="Created by Hekisa using MCreator"
 displayURL="https://mcreator.net"
 authors="Hekisa"
+description="A mod that introduce the whole new draconite resource, containig  new armor, tools and blocks"
 
-[[dependencies.the_draconite_ore]]
+[[dependencies.from_netherite_to_draconite]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.19.2]"

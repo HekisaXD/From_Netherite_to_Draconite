@@ -6,7 +6,7 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Item;
 
-import net.mcreator.thedraconiteore.init.TheDraconiteOreModTabs;
+import net.mcreator.thedraconiteore.init.FromNetheriteToDraconiteModTabs;
 
 public class DraconiteSwordItem extends SwordItem {
 	public DraconiteSwordItem() {
@@ -34,6 +34,6 @@ public class DraconiteSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -2f, new Item.Properties().tab(TheDraconiteOreModTabs.TAB_DRAC_CREAT_TAB).fireResistant());
+		}, 3, -2f, new Item.Properties().tab(FromNetheriteToDraconiteModTabs.TAB_DRAC_CREAT_TAB).fireResistant());
 	}
 }

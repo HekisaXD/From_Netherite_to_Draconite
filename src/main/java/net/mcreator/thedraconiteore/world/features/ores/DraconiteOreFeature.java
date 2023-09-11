@@ -21,7 +21,7 @@ import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.core.Holder;
 
-import net.mcreator.thedraconiteore.init.TheDraconiteOreModBlocks;
+import net.mcreator.thedraconiteore.init.FromNetheriteToDraconiteModBlocks;
 
 import java.util.Set;
 import java.util.List;
@@ -33,12 +33,12 @@ public class DraconiteOreFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new DraconiteOreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("the_draconite_ore:draconite_ore", FEATURE,
-				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), TheDraconiteOreModBlocks.DRACONITE_ORE.get().defaultBlockState()),
-						OreConfiguration.target(new BlockStateMatchTest(Blocks.GRANITE.defaultBlockState()), TheDraconiteOreModBlocks.DRACONITE_ORE.get().defaultBlockState()),
-						OreConfiguration.target(new BlockStateMatchTest(Blocks.DIORITE.defaultBlockState()), TheDraconiteOreModBlocks.DRACONITE_ORE.get().defaultBlockState()),
-						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), TheDraconiteOreModBlocks.DRACONITE_ORE.get().defaultBlockState())), 7));
-		PLACED_FEATURE = PlacementUtils.register("the_draconite_ore:draconite_ore", CONFIGURED_FEATURE,
+		CONFIGURED_FEATURE = FeatureUtils.register("from_netherite_to_draconite:draconite_ore", FEATURE,
+				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), FromNetheriteToDraconiteModBlocks.DRACONITE_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.GRANITE.defaultBlockState()), FromNetheriteToDraconiteModBlocks.DRACONITE_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.DIORITE.defaultBlockState()), FromNetheriteToDraconiteModBlocks.DRACONITE_ORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), FromNetheriteToDraconiteModBlocks.DRACONITE_ORE.get().defaultBlockState())), 7));
+		PLACED_FEATURE = PlacementUtils.register("from_netherite_to_draconite:draconite_ore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(1), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(0)), BiomeFilter.biome()));
 		return FEATURE;
 	}
