@@ -126,71 +126,6 @@
       }
     },
     {
-      "name": "ReciepieDraconiteSwordN",
-      "type": "recipe",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "reciepie_draconite_sword_n",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/the_draconite_ore/recipes/reciepie_draconite_sword_n.json"
-        ]
-      }
-    },
-    {
-      "name": "RecipieDraconitePickaxeN",
-      "type": "recipe",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "recipie_draconite_pickaxe_n",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/the_draconite_ore/recipes/recipie_draconite_pickaxe_n.json"
-        ]
-      }
-    },
-    {
-      "name": "RecipieDraconiteAxeN",
-      "type": "recipe",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "recipie_draconite_axe_n",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/the_draconite_ore/recipes/recipie_draconite_axe_n.json"
-        ]
-      }
-    },
-    {
-      "name": "RecipieDraconiteHoeN",
-      "type": "recipe",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "recipie_draconite_hoe_n",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/the_draconite_ore/recipes/recipie_draconite_hoe_n.json"
-        ]
-      }
-    },
-    {
-      "name": "RecipieDraconiteShovelN",
-      "type": "recipe",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "recipie_draconite_shovel_n",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/the_draconite_ore/recipes/recipie_draconite_shovel_n.json"
-        ]
-      }
-    },
-    {
       "name": "DraconiteOre",
       "type": "block",
       "sortid": 20,
@@ -199,12 +134,12 @@
       "registry_name": "draconite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_draconite_ore/blockstates/draconite_ore.json",
-          "src/main/java/net/mcreator/thedraconiteore/world/features/ores/DraconiteOreFeature.java",
-          "src/main/resources/assets/the_draconite_ore/models/block/draconite_ore.json",
           "src/main/java/net/mcreator/thedraconiteore/block/DraconiteOreBlock.java",
           "src/main/resources/data/the_draconite_ore/forge/biome_modifier/draconite_ore_biome_modifier.json",
-          "src/main/resources/assets/the_draconite_ore/models/item/draconite_ore.json"
+          "src/main/resources/assets/the_draconite_ore/models/block/draconite_ore.json",
+          "src/main/resources/assets/the_draconite_ore/models/item/draconite_ore.json",
+          "src/main/resources/assets/the_draconite_ore/blockstates/draconite_ore.json",
+          "src/main/java/net/mcreator/thedraconiteore/world/features/ores/DraconiteOreFeature.java"
         ]
       }
     },
@@ -277,6 +212,123 @@
           "src/main/resources/assets/the_draconite_ore/models/item/drac_armor_helmet.json"
         ]
       }
+    },
+    {
+      "name": "ReciepeDracSword",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reciepe_drac_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_draconite_ore/recipes/reciepe_drac_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "ReciepeAxe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reciepe_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_draconite_ore/recipes/reciepe_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "ReciepeDracPickaxe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reciepe_drac_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_draconite_ore/recipes/reciepe_drac_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "ReciepeDracShovel",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reciepe_drac_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_draconite_ore/recipes/reciepe_drac_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "ReciepeDracHoe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reciepe_drac_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_draconite_ore/recipes/reciepe_drac_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "ReciepeDracHelmet",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reciepe_drac_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_draconite_ore/recipes/reciepe_drac_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "ReciepeDracChestplate",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reciepe_drac_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_draconite_ore/recipes/reciepe_drac_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "ReciepeDracLeggings",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reciepe_drac_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_draconite_ore/recipes/reciepe_drac_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "ReciepeDracBoots",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reciepe_drac_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_draconite_ore/recipes/reciepe_drac_boots.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -303,18 +355,18 @@
       "item.the_draconite_ore.draconite_pickaxe": "Pioche en Draconite ",
       "item.the_draconite_ore.draconite": "Lingot de Draconite",
       "item.the_draconite_ore.draconite_axe": "Hache en Draconite",
-      "item.the_draconite_ore.drac_armor_boots": "Draconite Boots",
+      "item.the_draconite_ore.drac_armor_boots": "Botte en Draconite",
       "block.the_draconite_ore.draconite_block": "Bloc de Draconite",
       "item.the_draconite_ore.draconite_nugget": "Pépite de Draconite",
       "item.the_draconite_ore.raw_draconite": "Draconite Brut",
-      "itemGroup.tabdrac_creat_tab": "Darconite Ore",
-      "item.the_draconite_ore.drac_armor_helmet": "Draconite Helmet",
-      "item.the_draconite_ore.drac_armor_chestplate": "Draconite Chestplate",
+      "itemGroup.tabdrac_creat_tab": "The Draconite Experience",
+      "item.the_draconite_ore.drac_armor_helmet": "Casque en Draconite",
+      "item.the_draconite_ore.drac_armor_chestplate": "Plastron en Draconite",
       "item.the_draconite_ore.draconite_hoe": "Houe en Draconite",
       "item.the_draconite_ore.draconite_shovel": "Pelle en Draconite",
       "item.the_draconite_ore.draconite_sword": "Épée en Draconite",
       "block.the_draconite_ore.draconite_ore": "Minerai de Draconite",
-      "item.the_draconite_ore.drac_armor_leggings": "Draconite Leggings"
+      "item.the_draconite_ore.drac_armor_leggings": "Jambière en Draconite"
     }
   },
   "foldersRoot": {
@@ -340,6 +392,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.thedraconiteore",
     "lockBaseModFiles": false
   },
