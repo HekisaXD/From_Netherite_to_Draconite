@@ -68,7 +68,7 @@ public abstract class DracArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "the_draconite_ore:textures/models/armor/draconite_layer1_layer_1.png";
+			return "the_draconite_ore:textures/models/armor/draconite__layer_1.png";
 		}
 	}
 
@@ -79,7 +79,7 @@ public abstract class DracArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "the_draconite_ore:textures/models/armor/draconite_layer1_layer_1.png";
+			return "the_draconite_ore:textures/models/armor/draconite__layer_1.png";
 		}
 	}
 
@@ -90,7 +90,7 @@ public abstract class DracArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "the_draconite_ore:textures/models/armor/draconite_layer1_layer_2.png";
+			return "the_draconite_ore:textures/models/armor/draconite__layer_2.png";
 		}
 	}
 
@@ -101,7 +101,7 @@ public abstract class DracArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "the_draconite_ore:textures/models/armor/draconite_layer1_layer_1.png";
+			return "the_draconite_ore:textures/models/armor/draconite__layer_1.png";
 		}
 	}
 }

@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "the_draconite_ore:drac_armor_boots"
+    "item": "minecraft:netherite_boots"
   },
   "addition": {
     "item": "the_draconite_ore:draconite"
   },
   "result": {
-    "item": "minecraft:netherite_boots"
+    "item": "the_draconite_ore:drac_armor_boots"
   }
 }

@@ -11,13 +11,13 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "smithingInputStack": {
-      "value": "CUSTOM:DracArmor.boots"
+      "value": "Items.NETHERITE_BOOTS"
     },
     "smithingInputAdditionStack": {
       "value": "CUSTOM:Draconite"
     },
     "smithingReturnStack": {
-      "value": "Items.NETHERITE_BOOTS"
+      "value": "CUSTOM:DracArmor.boots"
     },
     "name": "reciepe_drac_boots",
     "namespace": "mod"

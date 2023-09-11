@@ -11,13 +11,13 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "smithingInputStack": {
-      "value": "Items.NETHERITE_HELMET"
+      "value": "Items.NETHERITE_SWORD"
     },
     "smithingInputAdditionStack": {
       "value": "CUSTOM:Draconite"
     },
     "smithingReturnStack": {
-      "value": "CUSTOM:DracArmor.helmet"
+      "value": "CUSTOM:DraconiteSword"
     },
     "name": "reciepe_drac_sword",
     "namespace": "mod"

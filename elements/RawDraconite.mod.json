@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "drac_raw",
+    "texture": "draconite_raw",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],

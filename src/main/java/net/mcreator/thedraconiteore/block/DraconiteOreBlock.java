@@ -22,7 +22,7 @@ import java.util.Collections;
 
 public class DraconiteOreBlock extends Block {
 	public DraconiteOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(3f).lightLevel(s -> 1).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(3f).lightLevel(s -> 1).requiresCorrectToolForDrops());
 	}
 
 	@Override

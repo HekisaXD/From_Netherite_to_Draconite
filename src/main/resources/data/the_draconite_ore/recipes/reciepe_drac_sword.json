@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "minecraft:netherite_helmet"
+    "item": "minecraft:netherite_sword"
   },
   "addition": {
     "item": "the_draconite_ore:draconite"
   },
   "result": {
-    "item": "the_draconite_ore:drac_armor_helmet"
+    "item": "the_draconite_ore:draconite_sword"
   }
 }

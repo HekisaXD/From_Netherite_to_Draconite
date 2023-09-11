@@ -78,8 +78,8 @@
       "registry_name": "draconite_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_draconite_ore/models/item/draconite_axe.json",
-          "src/main/java/net/mcreator/thedraconiteore/item/DraconiteAxeItem.java"
+          "src/main/java/net/mcreator/thedraconiteore/item/DraconiteAxeItem.java",
+          "src/main/resources/assets/the_draconite_ore/models/item/draconite_axe.json"
         ]
       }
     },
@@ -205,10 +205,10 @@
       "registry_name": "drac_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_draconite_ore/models/item/drac_armor_leggings.json",
+          "src/main/resources/assets/the_draconite_ore/models/item/drac_armor_boots.json",
           "src/main/resources/assets/the_draconite_ore/models/item/drac_armor_chestplate.json",
           "src/main/java/net/mcreator/thedraconiteore/item/DracArmorItem.java",
-          "src/main/resources/assets/the_draconite_ore/models/item/drac_armor_boots.json",
+          "src/main/resources/assets/the_draconite_ore/models/item/drac_armor_leggings.json",
           "src/main/resources/assets/the_draconite_ore/models/item/drac_armor_helmet.json"
         ]
       }
@@ -382,8 +382,7 @@
     "modid": "the_draconite_ore",
     "modName": "The Draconite Ore",
     "version": "1.0.0",
-    "author": "Hekisa, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "author": "Hekisa",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -392,7 +391,6 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.thedraconiteore",
     "lockBaseModFiles": false
   },
